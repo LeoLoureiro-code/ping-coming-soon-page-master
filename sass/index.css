@@ -30,6 +30,15 @@ main .logo-div {
   height: 18px;
 }
 
+@media screen and (min-width: 1440px) {
+  main .logo-div {
+    margin-top: 2.3rem;
+    margin-bottom: 3.7rem;
+    width: 85px;
+    height: 18px;
+  }
+}
+
 main .logo-div .logo {
   height: auto;
   width: 100%;
@@ -42,6 +51,12 @@ main h1 {
   margin-bottom: 1rem;
 }
 
+@media screen and (min-width: 1440px) {
+  main h1 {
+    font-size: 2.9rem;
+  }
+}
+
 main h1 span {
   font-weight: 700;
 }
@@ -52,17 +67,43 @@ main .suscribe {
   letter-spacing: 0px;
 }
 
+@media screen and (min-width: 1440px) {
+  main .suscribe {
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+  }
+}
+
 form {
   margin-top: 1.8rem;
+}
+
+@media screen and (min-width: 1440px) {
+  form {
+    margin-bottom: 5.3rem;
+  }
 }
 
 form #email {
   border-radius: 26px;
   border: 1px solid #c2d3ff;
+  display: block;
+  margin: 0 auto;
+  font-size: 12px;
   height: 20px;
   outline: none;
   padding: 19px;
   width: 280px;
+}
+
+@media screen and (min-width: 1440px) {
+  form #email {
+    padding: 28px 28px;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 16px;
+    width: 420px;
+  }
 }
 
 form .error {
@@ -86,12 +127,28 @@ form .notify-btn {
   margin-top: 1.5rem;
 }
 
+@media screen and (min-width: 1440px) {
+  form .notify-btn {
+    font-size: 16px;
+    margin-top: 0.7rem;
+    letter-spacing: 0.2px;
+    padding: 20px 10px;
+    width: 200px;
+  }
+}
+
 .dashboard-div {
   margin-top: 2rem;
 }
 
 .dashboard-div .dashboard {
   height: 200px;
+}
+
+@media screen and (min-width: 1440px) {
+  .dashboard-div .dashboard {
+    height: 390px;
+  }
 }
 
 footer {
@@ -115,6 +172,12 @@ footer .copy {
   margin-top: 1.8rem;
 }
 
+@media screen and (min-width: 1440px) {
+  footer .copy {
+    font-size: 12px;
+  }
+}
+
 .social-div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -127,6 +190,12 @@ footer .copy {
       justify-content: space-around;
   margin-top: 7.4rem;
   width: 130px;
+}
+
+@media screen and (min-width: 1440px) {
+  .social-div {
+    margin-top: 4.3rem;
+  }
 }
 
 .social-div .social {
