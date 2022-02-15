@@ -66,6 +66,7 @@ main{
 
 form{
     margin-top: 1.8rem;
+    position: relative;
 
     @media screen and (min-width: 1440px) {
         margin-bottom: 5.3rem;
@@ -93,11 +94,24 @@ form{
         }
     }
 
+    #email-error{
+        @extend #email;
+        border: 1px solid $error;
+    }
+
     .error{
         color: $error;
         display: none;
         margin-top: 0.5rem;
         font-size: 10px;
+        position: absolute;
+        left: 25%;
+        bottom: 45%;
+
+        @media screen and (min-width: 1440px) {
+            bottom: -20%;
+            left: 20%;
+        }
     }
 
     .notify-btn{
@@ -105,6 +119,7 @@ form{
         border-radius: 26px;
         border: none;
         color: #fff;
+        cursor: pointer;
         font-size: 12px;
         font-weight: 600;
         letter-spacing: 0.5px;
