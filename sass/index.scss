@@ -76,6 +76,7 @@ form{
     #email{
         border-radius: 26px;
         border: 1px solid $inputBorder;
+        color: $text;
         display: block;
         margin: 0 auto;
         font-size: 12px;
@@ -119,6 +120,7 @@ form{
         background-color: $btn;
         border-radius: 26px;
         border: none;
+        box-shadow: 0px 3px 5px 2px hsla(223, 87%, 63%, 0.5);
         color: #fff;
         cursor: pointer;
         font-size: 12px;
