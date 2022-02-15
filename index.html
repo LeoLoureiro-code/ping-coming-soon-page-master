@@ -5,28 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="./sass/index.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Ping coming soon page</title>
+  <script src="https://kit.fontawesome.com/d162a7af77.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <main>
     <div class="logo-div">
       <img src="./images/logo.svg" alt="company logo" class="logo">
     </div>
-    <h1>We are launching soon!</h1>
+    <h1>We are launching <span>soon!</span></h1>
     <span class="suscribe">Subscribe and get notified</span>
     <form action="" class="form">
-      <input type="email" name="email" id="email">
-      <button class="notify-btn">Notify Me</button>
+      <input type="email" name="email" id="email" placeholder="Your email address...">
+      <p class="error">Please provide a valid email address</p>
+      <button class="notify-btn" id="btn">Notify Me</button>
     </form>
     <div class="dashboard-div">
       <img src="./images/illustration-dashboard.png" alt="page's dashboard" class="dashboard">
     </div>
     <footer>
       <div class="social-div">
-        <div class="social"></div>
-        <div class="social"></div>
-        <div class="social"></div>
+        <div class="social">
+          <i class="fa fa-brands fa-facebook-f fa-md icon"></i>
+        </div>
+        <div class="social">
+          <i class="fa fa-brands fa-twitter fa-md icon"></i>
+        </div>
+        <div class="social">
+          <i class="fa fa-brands fa-instagram fa-md icon"></i>
+        </div>
       </div>
       <p class="copy"> &copy; Copyright Ping. All rights reserved.</p>
     </footer>
@@ -37,5 +44,6 @@
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer> -->
+  
 </body>
 </html>
