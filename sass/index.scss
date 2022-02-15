@@ -194,5 +194,16 @@ footer{
              margin-top: 6px;
        }
 
+       .icon:hover{
+
+       }
+
+    }
+
+    .social:hover{
+        background-color: $btn;
+        color: #fff;
+        cursor: pointer;
+        border:  1px solid #fff;
     }
 }

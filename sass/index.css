@@ -226,4 +226,11 @@ footer .copy {
 .social-div .social .icon {
   margin-top: 6px;
 }
+
+.social-div .social:hover {
+  background-color: #4f7df3;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
 /*# sourceMappingURL=index.css.map */
