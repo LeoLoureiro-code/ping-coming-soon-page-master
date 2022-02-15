@@ -1,0 +1,125 @@
+@import 'variables';
+
+html *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+main{
+    font-family: $fontFamily;
+    margin-top: 3rem;
+    text-align: center;
+
+    .logo-div{
+        margin: 0 auto;
+        margin-top: 4.45rem;
+        margin-bottom: 2.5rem;
+        width: 57px;
+        height: 18px;
+
+        .logo{
+            height: auto;
+            width: 100%;
+        }
+    }
+
+    h1{
+        font-size: $fontSize;
+        font-weight: 300;
+        letter-spacing: 1px;
+        margin-bottom: 1rem;
+
+        span{
+            font-weight: 700;
+        }
+    }
+
+    .suscribe{
+        font-size: 12px;
+        font-weight: 300;
+        letter-spacing: 0px;
+    }
+}
+
+form{
+    margin-top: 1.8rem;
+
+    #email{
+        border-radius: 26px;
+        border: 1px solid $inputBorder;
+        height: 20px;
+        outline: none;
+        padding: 19px;
+        width: 280px;
+    }
+
+    .error{
+        color: $error;
+        display: none;
+        margin-top: 0.5rem;
+        font-size: 10px;
+    }
+
+    .notify-btn{
+        background-color: $btn;
+        border-radius: 26px;
+        border: none;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        outline: none;
+        padding: 12px 0;
+        width: 280px;
+        margin-top: 1.5rem;
+    }
+}
+
+.dashboard-div{
+
+    margin-top: 2rem;
+    .dashboard{
+        height: 200px;
+    }
+}
+
+footer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .copy{
+        font-size: 10px;
+        margin-top: 1.8rem;
+    }
+
+}
+
+.social-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 7.4rem;
+    width: 130px;
+
+    .social{
+       border: 1px solid $btn;
+       border-radius: 50%;
+       color: $btn;
+       height: 28px;
+       position: relative;
+       width: 28px;
+       
+       .icon{
+             margin-top: 6px;
+       }
+
+    }
+}
