@@ -123,8 +123,9 @@ form .error {
 
 @media screen and (min-width: 1440px) {
   form .error {
-    bottom: -20%;
-    left: 20%;
+    bottom: -25%;
+    font-size: 12px;
+    left: 5%;
   }
 }
 

@@ -109,8 +109,9 @@ form{
         bottom: 45%;
 
         @media screen and (min-width: 1440px) {
-            bottom: -20%;
-            left: 20%;
+            bottom: -25%;
+            font-size: 12px;
+            left: 5%;
         }
     }
 
@@ -192,10 +193,6 @@ footer{
        
        .icon{
              margin-top: 6px;
-       }
-
-       .icon:hover{
-
        }
 
     }
