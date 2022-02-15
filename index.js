@@ -14,11 +14,14 @@ const validate = () =>{
     if(!input.value.match(validation) || input.value.length === 0){
         input.removeAttribute('id')
         input.setAttribute('id', 'email-error')
+        input.placeholder ="example@email.com"
         errorMsj.style.display = "block"
     }else{
         input.removeAttribute('id')
         input.setAttribute('id', 'email')
+        input.placeholder ="Your email address"
         errorMsj.style.display = "none"
+        input.value =""
     }
 }
 
